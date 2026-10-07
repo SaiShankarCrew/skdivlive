@@ -1,6 +1,6 @@
 # Skdiv.Studios — Live Dashboard Backend
 
-Next.js backend that powers the `/skdivlive` route on [skdiv.com](https://skdiv.com).
+Next.js backend that powers the `/skdivlive` route on [skdiv.com](https://skdiv.com)..
 
 Fetches data from YouTube, Instagram, Spotify, Apple Podcasts and TikTok APIs,
 caches results for 5 minutes, and serves them as JSON at `/api/metrics`.
