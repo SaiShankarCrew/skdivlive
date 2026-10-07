@@ -1,11 +1,12 @@
 {
   "name": "skdiv-crewcasts-dashboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Live performance dashboard for CREWcasts by Skdiv.Studios",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "vercel-build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
