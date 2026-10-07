@@ -1,0 +1,21 @@
+# Dependencies and build output — never commit these
+node_modules
+.next
+out
+
+# Environment variables — NEVER commit these, add them in Vercel dashboard instead
+.env
+.env.local
+.env.production
+.env.development
+
+# Vercel internal
+.vercel
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,36 @@
+{
+  "_comment": "Numbers that no API can return. Edit these by hand, commit, redeploy. Each entry carries the date it was read so the dashboard can show how stale it is.",
+  "instagram30Day": {
+    "enabled": true,
+    "source": "Instagram Insights screenshot",
+    "readOn": "2026-08-27",
+    "periodLabel": "29 Jul to 27 Aug 2026",
+    "views": 181594,
+    "viewers": 114624,
+    "viewerGrowthPct": 1810.4,
+    "followerViewPct": 9.2,
+    "nonFollowerViewPct": 90.8,
+    "reelsSharePct": 65.0
+  },
+  "tiktok": {
+    "enabled": false,
+    "source": "TikTok Studio screenshot",
+    "readOn": null,
+    "followers": null,
+    "views30Day": null
+  },
+  "spotify": {
+    "enabled": false,
+    "source": "Spotify for Creators",
+    "readOn": null,
+    "plays30Day": null,
+    "followers": null
+  },
+  "apple": {
+    "enabled": true,
+    "source": "Apple Podcasts public listing",
+    "readOn": "2026-08-28",
+    "rating": 5.0,
+    "ratingCount": 1
+  }
+}
