@@ -73,7 +73,11 @@ export default function PlatformCards({ metrics }: { metrics: Metrics }) {
         name="Apple Podcasts"
         source={apple}
         value={apple.data ? apple.data.episodeCount + ' episodes' : 'Not connected'}
-        note="Public directory metadata only"
+        note={
+          apple.data?.rating
+            ? `★ ${apple.data.rating.toFixed(1)} rating (${apple.data.ratingCount} ${apple.data.ratingCount === 1 ? 'review' : 'reviews'})`
+            : 'Public directory metadata'
+        }
       />
     </div>
   );
